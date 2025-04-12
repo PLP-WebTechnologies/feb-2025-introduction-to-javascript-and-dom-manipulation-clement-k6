@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .content {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .item {
+      background-color: #e0e0e0;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dynamic Webpage</h1>
+  </header>
+  <main>
+    <section class="content">
+      <p id="dynamic-text">This is the initial text content.</p>
+      <button id="change-text-btn">Change Text</button>
+      <button id="change-style-btn">Change Style</button>
+      <button id="add-item-btn">Add Item</button>
+      <button id="remove-item-btn">Remove Last Item</button>
+      <div id="item-container"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Dynamic Webpage</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
